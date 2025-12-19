@@ -1,5 +1,5 @@
 # Two Sum on GPU (CUDA) — Learning Project
-
+### Question= Given an array of integers and a target, return indices of two numbers that add up to the target.
 ## What is this project?
 This project implements a **brute-force Two Sum** algorithm on the GPU using CUDA.
 

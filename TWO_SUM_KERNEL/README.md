@@ -1,5 +1,10 @@
+=======
+# Two Sum on GPU (CUDA) — Learning Project
+### Question= Given an array of integers and a target, return indices of two numbers that add up to the target.
+## What is this project?
+This project implements a **brute-force Two Sum** algorithm on the GPU using CUDA.
 
-<<<<<<< HEAD
+>>>>>>> 44b5b5c68c05c198659d18a91b5b87986f9d9f00
 The purpose of this code is **not** to build the fastest Two Sum solution.  
 Instead, it is a **learning and exploration project** to understand:
 
@@ -90,5 +95,3 @@ This project helps build intuition about:
 ```bash
 nvcc -O3 two_sum.cu -o two_sum
 ./two_sum
-=======
->>>>>>> 11c2c5d150131b7a777044c0789753c64f73ca17

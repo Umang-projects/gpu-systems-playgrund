@@ -82,6 +82,10 @@ This project helps build intuition about:
 - Why some algorithms are poor fits for GPUs
 - How to reason about GPU performance before optimizing
 
+## Problem: In GPU programming, when many threads try to update the same memory location using atomic operations, performance degrades because these operations become serialized and cause memory contention. Although atomic instructions guarantee correctness, they introduce high latency, especially when executed by a large number of threads.
+
+## Solution: Warp-level programming
+
 ---
 
 ## How to build and run

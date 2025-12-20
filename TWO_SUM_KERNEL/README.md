@@ -1,4 +1,3 @@
-=======
 # Two Sum on GPU (CUDA) — Learning Project
 ### Question= Given an array of integers and a target, return indices of two numbers that add up to the target.
 

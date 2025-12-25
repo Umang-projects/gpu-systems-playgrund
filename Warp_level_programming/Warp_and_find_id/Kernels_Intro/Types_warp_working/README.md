@@ -787,11 +787,16 @@ val = __shfl_xor_sync(0xFFFFFFFF, data, 4);  // 4 = 2^2
 
 ## Key Takeaways
 
-1. **Shuffle functions are extremely fast** - 10-20x faster than shared memory
-2. **Four types serve different purposes** - Choose the right one for your pattern
-3. **Mask must match active threads** - Critical for correctness
-4. **Works only within a warp** - Cannot exchange data across warps
-5. **XOR creates efficient patterns** - Use for symmetrical operations
+1. **Shuffle functions are extremely fast** - 10-20x faster than shared memory.
+
+2. **Four types serve different purposes** - Choose the right one for your pattern.
+
+3. **Mask must match active threads** - Critical for correctness.
+
+4. **Works only within a warp** - Cannot exchange data across warps.
+
+5. **XOR creates efficient patterns** - Use for symmetrical operations.
+
 6. **Always validate boundaries** - Handle edge cases at warp boundaries
 
 ---

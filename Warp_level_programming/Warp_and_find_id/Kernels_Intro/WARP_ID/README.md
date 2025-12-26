@@ -10,9 +10,9 @@ When writing warp-aware code you often need to:
 
 ## Solution
 Compute warp and lane from `threadIdx.x`:
-```cpp
-int tid     = threadIdx.x;
-int warp_id = tid / 32;   // warp index inside block (assumes warp size = 32)
-int lane_id = tid % 32;   // lane index within warp (0..31)
+    ```cpp
+    int tid     = threadIdx.x;
+    int warp_id = tid / 32;   // warp index inside block (assumes warp size = 32)
+    int lane_id = tid % 32;   // lane index within warp (0..31)
 
 ![Warp Shuffle Data Flow](warp_id.png)

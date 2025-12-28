@@ -40,7 +40,7 @@ This is where I learned the absolute core concepts of GPU programming. These are
 
 **What I proved:** I can identify memory bottlenecks and fix them using the GPU memory hierarchy.
 
-**Performance Journey:**
+**Performance Journey[Example]:**
 - **Naive version**: 45 GFLOPS (terrible)
 - **Shared memory tiling**: 380 GFLOPS (8× faster!)
 - **Register blocking**: 720 GFLOPS (16× faster than naive!)
@@ -64,7 +64,7 @@ This progression shows I didn't just copy code - I understand WHY each optimizat
 
 **What I proved:** I understand thread synchronization, race conditions, and warp-level optimization.
 
-**Performance Journey:**
+**Performance Journey[Example]:**
 - **Atomic operations**: 0.8 ms (serialized, terrible)
 - **Shared memory reduction**: 0.15 ms (5× faster)
 - **Warp shuffle reduction**: 0.09 ms (9× faster than atomics)

@@ -226,6 +226,18 @@ This was my foundation. Next steps:
 - **Driver Version:** 570.172.08
 
 ---
+---
+## Profiling
+
+### CPU
+![CPU](CPU.png)
+
+### Naive Kernel
+![naive kernel](naive.png)
+
+### Optimized Kernel
+![Optimized](optimized.png)
+---
 
 ## Lessons for Real Applications
 

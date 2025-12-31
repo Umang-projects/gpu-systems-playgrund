@@ -252,3 +252,4 @@ These lessons apply directly to:
 - Scientific computing (design algorithms with data locality)
 
 **Bottom line:** Understanding vector addition deeply → understanding GPU programming fundamentals → ready for advanced optimization!
+

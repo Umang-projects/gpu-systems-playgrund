@@ -2,7 +2,7 @@
 #include <vector>
 
 int main() {
-    const int N = 1e7;
+    int N = 1e7;
     std::vector<float> a(N, 1.0f);
 
     float sum = 0.0f;
